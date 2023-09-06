@@ -1,0 +1,54 @@
+i{
+    color:blue;
+    
+
+}
+h1{
+    color:brown;
+    border:2px solid green;
+}
+.width{
+    width:500px;
+    border:2px solid red;
+    margin:auto;
+
+}
+.m-width{
+   max-width: 500px;
+    border:2px solid greenyellow;
+    margin:auto;
+
+}
+.box1{
+    position:relative;
+    height:200px;
+    width:250px;
+    border:2px solid green;
+    background-color: green;
+    left:100px;
+}
+.sub-box{
+    position:absolute;
+    height: 120px;
+    width:120px;
+    border:2px solid red;
+   right:0px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    background-color: red;
+    margin:auto;
+    border-radius: 50%;
+}
+.sticky{
+    position:sticky;
+    background-color: aqua;
+    top:0px;
+
+
+}
+.fixed{
+    position:fixed;
+    background-color: rgb(255, 187, 0);
+    bottom:0px;
+}
